@@ -1,0 +1,140 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 26-mar-2015, 10.32.46
+    Author     : Arturo
+*/
+
+.ccontent {
+    min-height: 100%;
+    display: block;
+    padding-top: 25px;
+    padding-left: 10px;
+     font-family: Arial,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 19px;
+    padding-bottom:25px;
+}
+.prod_box_cart {
+    width: 1000px;
+    float: left;
+    height: auto;
+    padding: 10px 10px 10px 10px;
+    display:table;
+}
+
+.prod_details {
+    
+    font-family: Arial,sans-serif;
+    font-size: 13px;
+    line-height: 19px;
+    font-weight: bold;
+    
+}
+.ordtab {
+display: table;
+//border-collapse: collapse;
+table-layout: fixed;
+width: 100%;
+padding-bottom: 10px;
+padding-top: 10px;
+}
+.ordtab > div {
+display: table-row;
+}
+.ordtab > div > div {
+display: table-cell;
+}
+.ccontent.ordtab.ordrow.prod_details {
+padding-top: 10px;
+}
+
+.ordtab {
+display: table;
+//border-collapse: collapse;
+table-layout: fixed;
+width: 100%;
+padding-bottom: 10px;
+padding-top: 10px;
+}
+.ordtab > div {
+display: table-row;
+}
+.ordtab > div > div {
+display: table-cell;
+}
+
+.ccontent.ordtab.ordrow.prod_details {
+padding-top: 10px;
+}
+
+
+body{
+    background: #272727;
+    display: inline;
+    text-align: center;
+    margin: auto;
+    color:white;
+}
+
+form{
+    display: inline;
+    margin-bottom: auto;
+}
+table{
+    white-space: normal;
+line-height: normal;
+font-weight: normal;
+font-size: medium;
+font-variant: normal;
+font-style: normal;
+color: -webkit-text;
+text-align: center;
+margin: auto;
+}
+h1{
+    font-size:2.6em;
+    padding:5px 0 10px;
+    color: white;
+    font-family: Vivaldi,cursive;
+}
+td{
+    color:white;
+}
+
+
+div.footer{
+	width:61%;
+	margin:0 auto;
+	padding:160px 1%;
+	background:#272727;
+}
+.left_footer{
+float:left;
+width:300px;
+padding:5px 0 0 10px;
+}
+.right_footer{
+float:right;
+padding:15px 30px 0 0;
+}
+.right_footer a{
+padding:5 120 0 7px;
+text-decoration:none;
+color: white;
+}
+.right_footer a:hover{
+text-decoration:underline;
+}
+
+.center_footer{
+float:left;
+width:300px;
+text-align:center;
+color:whitesmoke;
+padding:10px 0 0 60px;
+}
